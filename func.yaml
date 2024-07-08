@@ -1,0 +1,12 @@
+specVersion: 0.36.0
+name: hello-function
+runtime: go
+created: 2024-06-25T12:28:59.473647+02:00
+
+build:
+  git:
+    url: https://github.com/dlozina-macrometa/hello-function.git
+    revision: main                                    
+  buildpacks: []
+  builder: ""
+  buildEnvs: []
